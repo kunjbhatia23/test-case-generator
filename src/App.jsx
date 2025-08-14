@@ -56,7 +56,7 @@ const AiService = {
         // For example, using environment variables (.env file).
         // const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
         // For this example, we'll leave it blank as it was in the original artifact.
-        const apiKey = ""; 
+        const apiKey = import.meta.env.VITE_GEMINI_API_KEY; 
         const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
         
         let delay = 1000;
@@ -579,7 +579,7 @@ export default function App() {
                     </div>
                     
                     <footer className="text-center mt-12 text-gray-500 text-sm">
-                        <p>Powered by Gemini and the GitHub API. Created with React & Tailwind CSS.</p>
+                        <p>Powered by Gemini & GitHub API. Created with React & Tailwind CSS. By Kunj Bhatia</p>
                     </footer>
                 </div>
             </div>
