@@ -212,7 +212,7 @@ const MessageBox = ({ type, title, message }) => {
 };
 
 const StepIndicator = ({ currentStep }) => {
-    const steps = ["Connect Repo", "Select Files", "Choose Test", "Generate Code"];
+    const steps = ["Connect Repo", "Select Files", "Choose Test", "Code"];
     return (
         <nav aria-label="Progress">
             <ol role="list" className="flex items-center">
