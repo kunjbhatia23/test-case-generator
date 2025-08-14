@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { FileCode2, Github, TestTube, ChevronRight, Loader2, Clipboard, RefreshCw, AlertTriangle, CheckCircle } from 'lucide-react';
-
+import './index.css';
 // --- MOCK GITHUB API CLIENT ---
 // In a real app, this would be a more robust client, possibly in a separate file.
 const GITHUB_API_BASE = 'https://api.github.com';
